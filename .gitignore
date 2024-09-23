@@ -57,27 +57,27 @@ Temporary Items
 .directory
 .Trash-*
 
-# # Ignore all modules except the default modules.
-# /modules/**
-# !/modules/default
-# !/modules/default/**
-# !/modules/README.md**
+# Ignore all modules except the default modules.
+/modules/**
+!/modules/default
+!/modules/default/**
+!/modules/README.md**
 
-# # Do not ignore greetings module.
-# !/modules/greetings
-# !/modules/greetings/**
+# Do not ignore greetings module.
+!/modules/greetings
+!/modules/greetings/**
 
-# # Do not ignore MQTT module.
-# !/modules/MMM-MQTTbridge
-# !/modules/MMM-MQTTbridge/**
+# Do not ignore MQTT module.
+!/modules/MMM-MQTTbridge
+!/modules/MMM-MQTTbridge/**
 
-# # Do not ignore QUIZ module.
-# !/modules/MMM-Quiz
-# !/modules/MMM-Quiz/**
+# Do not ignore QUIZ module.
+!/modules/MMM-Quiz
+!/modules/MMM-Quiz/**
 
-# # Do not ignore random quote module.
-# !/modules/MMM-RandomQuotes
-# !/modules/MMM-RandomQuotes/**
+# Do not ignore random quote module.
+!/modules/MMM-RandomQuotes
+!/modules/MMM-RandomQuotes/**
 
 # Ignore changes to the custom css files but keep the sample and main.
 /css/*
@@ -101,3 +101,4 @@ Temporary Items
 
 # Ignore the docker-compose file to avoid unwanted IP address pushing
 # docker-compose.yaml
+docker-compose.yaml
