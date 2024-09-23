@@ -66,8 +66,8 @@ Temporary Items
 # Ignore all modules except the specified ones
 !/modules/greetings
 !/modules/MMM-MQTTbridge
-!/modules/MMM-QuizTime
-!/modules/MMM-RandomSentence
+!/modules/MMM-AyesQuiz
+!/modules/MMM-AyesSentence
 
 # Ignore changes to the custom css files but keep the sample and main.
 /css/*
