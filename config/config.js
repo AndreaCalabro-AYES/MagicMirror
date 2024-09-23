@@ -135,6 +135,13 @@ let config = {
 				broadcastNewsUpdates: true
 			}
 		},
+		{
+			module: "MMM-RandomQuotes",
+			position: "middle_center",
+			config: {
+				quoteSize: "M"
+			}
+		  }
 	]
 };
 

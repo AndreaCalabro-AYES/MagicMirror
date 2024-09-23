@@ -71,6 +71,14 @@ Temporary Items
 !/modules/MMM-MQTTbridge
 !/modules/MMM-MQTTbridge/**
 
+# Do not ignore QUIZ module.
+!/modules/MMM-Quiz
+!/modules/MMM-Quiz/**
+
+# Do not ignore random quote module.
+!/modules/MMM-RandomQuotes
+!/modules/MMM-RandomQuotes/**
+
 # Ignore changes to the custom css files but keep the sample and main.
 /css/*
 !/css/custom.css.sample

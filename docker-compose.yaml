@@ -7,15 +7,21 @@ services:
       dockerfile: Dockerfile
     container_name: magic_mirror
     environment:
-      - DISPLAY=:0
+      - DISPLAY=192.168.178.21:0
+    
     volumes:
       - ./config:/opt/magicmirror/config
+      - ./modules:/opt/magic_mirror/modules  # New volume for modules
+      - ./tryAPIs.js:/opt/tryAPIs.js  # New volume for modules
       - /tmp/.X11-unix:/tmp/.X11-unix
     devices:
       - /dev/dri:/dev/dri
     # networks:
     #   - mqtt_network
     network_mode: host
+
+    # command: ["node", "tryAPI.js"]
+
 
     privileged: true
     
