@@ -1,0 +1,24 @@
+/* modules/default/helloworld/helloworld.css */
+
+.helloworld-container {
+display: flex;
+flex-direction: column; /* Ensure the text is below the image */
+align-items: flex-start; /* Align items to the start (left) */
+}
+
+.helloworld-text {
+font-size: 24px;
+font-family: 'Franklin Gothic Medium';
+text-align: left;
+margin-bottom: 10px;
+}
+
+.helloworld-image {
+max-width: 80%; /* Set the image size */
+max-height: 80%;
+margin: 0; /* Remove any default margin */
+}
+
+.highlight-a {
+	color: red; /* Highlight the letter 'A' in red */
+}
