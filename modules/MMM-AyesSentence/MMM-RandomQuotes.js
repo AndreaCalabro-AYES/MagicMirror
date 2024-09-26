@@ -2,7 +2,7 @@ var self;
 Module.register("MMM-RandomQuotes", {
 	// Module config defaults.
 	defaults: {
-		updateInterval: 15*60,
+		updateInterval: 15*60, // 15 minutes
 		showSymbol: true,
 		fadeSpeed: 4000,
 		category: "",
