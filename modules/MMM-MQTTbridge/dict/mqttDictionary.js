@@ -23,6 +23,14 @@ var mqttHook = [
         },
       ],
     },
+    {
+      mqttTopic: "sentence/single_sentence",
+      mqttPayload: [
+        {
+          mqttNotiCmd: ["Single Sentence"]
+        },
+      ],
+    },
   ];
 // The payload of the MQTT message must contain an array of strings called 'names'
 // that contains the name of the persons that have been recognized
@@ -38,6 +46,10 @@ var mqttNotiCommands = [
     {
       commandId: "Internal Temperature",
       notiID: "INDOOR_TEMPERATURE"
+    },
+    {
+      commandId: "Single Sentence",
+      notiID: "SINGLE_SENTENCE"
     },
   ];
 

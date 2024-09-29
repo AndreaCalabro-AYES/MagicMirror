@@ -136,12 +136,14 @@ let config = {
 			}
 		},
 		{
-			module: "MMM-RandomQuotes",
+			module: "MMM-SingleSentence",
 			position: "middle_center",
 			config: {
-				quoteSize: "M"
+				displayTime: 14 * 60 * 1000, // Time in ms to display the sentence before clearing
+				animationSpeed: 1000,
+				classes: "bright small thin pre-line"  // This makes the text small and bright
 			}
-		  }
+		}
 	]
 };
 
