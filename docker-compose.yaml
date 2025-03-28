@@ -19,6 +19,6 @@ services:
 
     privileged: true
     
-    restart: unless-stopped
+    restart: always
 
 
