@@ -59,29 +59,6 @@ let config = {
 				timezone: "Europe/Brussels",
 			}
 		},
-		// {
-		//     module: "calendar",
-		//     header: "Belgian Holidays",
-		//     position: "top_left",
-		//     config: {
-		//         calendars: [
-		//             {
-		//                 fetchInterval: 7 * 24 * 60 * 60 * 1000,
-		//                 symbol: "calendar-check",
-		//                 url: "https://www.officeholidays.com/ics/belgium"
-		//             }
-		//         ]
-		//     }
-		// },
-		
-		// {
-		// 	module: "compliments",
-		// 	position: "lower_third"
-		// },
-		{
-			module: "greetings",
-			position: "lower_third"
-        },
 		{
 			module: 'MMM-MQTTbridge',
 			disabled: false,
@@ -118,7 +95,15 @@ let config = {
 				apiKey: "f8b3c5d1e4b3a80422d92bdf820148e9",
 				colored: true
 			}
-		},
+		}, 
+		// {
+		// 	module: "streetmap",
+		// 	position: "middle_center"
+	    // },
+		{
+			module: "greetings",
+			position: "lower_third"
+	    },
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
